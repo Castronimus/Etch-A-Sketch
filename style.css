@@ -14,4 +14,12 @@ body {
     border: 2px solid;
     height: 32em;
     width: 32em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 2em;
+    width: 2em;
+    border: 1px solid;
 }
