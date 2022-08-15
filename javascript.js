@@ -14,3 +14,8 @@ hover.forEach((div) => {
     });
 });
 
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+    let answer = prompt("Please put the number of squares per side of the new grid")
+});
