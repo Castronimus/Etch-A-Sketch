@@ -13,13 +13,13 @@ body {
 
 .grid {
     border: 2px solid;
-    height: 32em;
-    width: 32em;
+    height: 16em;
+    width: 16em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .grid div {
-    height: 2em;
-    width: 2em;
+    height: 1em;
+    width: 1em;
 }

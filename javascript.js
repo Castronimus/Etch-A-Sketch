@@ -9,7 +9,7 @@ const hover = document.querySelectorAll(".grid div");
 
 hover.forEach((div) => {
     div.addEventListener("mouseover", () => {
-        console.log("UWU YOU HOVER ME")
+        console.log("UWU YOU HOVER ME");
         div.style.backgroundColor = "black";
     });
 });
@@ -17,5 +17,5 @@ hover.forEach((div) => {
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-    let answer = prompt("Please put the number of squares per side of the new grid")
+    let answer = prompt("Please put the number of squares per side of the new grid");
 });
