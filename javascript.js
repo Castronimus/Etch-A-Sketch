@@ -10,6 +10,7 @@ const hover = document.querySelectorAll(".grid div");
 hover.forEach((div) => {
     div.addEventListener("mouseover", () => {
         console.log("UWU YOU HOVER ME")
+        div.style.backgroundColor = "black";
     });
 });
 
