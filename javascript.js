@@ -20,6 +20,9 @@ const gridDiv = document.querySelector(".grid")
 
 button.addEventListener("click", () => {
     let answer = prompt("Please put the number of squares per side of the new grid");
+    while (answer>100) {
+        answer = prompt("That's too much, please lower or equal to 100");
+    };
     gridDiv.innerHTML = "";
     grid.style.height = `${answer}em`;
     grid.style.width = `${answer}em`;
