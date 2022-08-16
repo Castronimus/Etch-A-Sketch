@@ -27,4 +27,12 @@ button.addEventListener("click", () => {
         const div = document.createElement("div");
         grid.appendChild(div);    
     }; 
+    const hover = document.querySelectorAll(".grid div");
+    hover.forEach((div) => {
+        div.addEventListener("mouseover", () => {
+            console.log("UWU YOU HOVER ME");
+            div.style.backgroundColor = "black";
+        });
+    });
+
 });
